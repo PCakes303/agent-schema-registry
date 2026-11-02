@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "repository": "agent-schema-registry",
+  "requires": [
+    "agent-foundation-spec"
+  ],
+  "provides": [
+    "schemas.catalog"
+  ],
+  "schema_dialect": "https://json-schema.org/draft/2020-12/schema",
+  "policy": "Additive optional properties are generally compatible; removing or tightening accepted values is breaking."
+}
