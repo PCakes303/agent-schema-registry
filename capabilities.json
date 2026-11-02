@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "repository": "agent-schema-registry",
+  "capabilities": [
+    {
+      "id": "schemas.catalog",
+      "status": "scaffolded",
+      "description": "Catalog of versioned JSON Schema documents."
+    },
+    {
+      "id": "schemas.compatibility",
+      "status": "planned",
+      "description": "Automated compatibility analysis."
+    }
+  ]
+}
