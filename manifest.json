@@ -1,0 +1,9 @@
+{
+  "name": "agent-schema-registry",
+  "version": "0.1.0",
+  "status": "scaffolded",
+  "license": "Apache-2.0",
+  "description": "Versioned schema catalog for ecosystem artifacts.",
+  "ecosystem_master": "https://github.com/PCakes303/agent-intelligence-ecosystem",
+  "main_public_identity": "https://github.com/HuffmanMainNode"
+}
