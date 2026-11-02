@@ -17,6 +17,7 @@ A versioned catalog of JSON Schemas and compatibility rules for ecosystem manife
 - docs/SCHEMA-REGISTRY.md — governance and compatibility rules.
 - tools/check_schema_catalog.py — standard-library structural checker.
 - tests/ — automated catalog tests.
+- .github/workflows/validate.yml — CI validation.
 
 ## Validate locally
 Requires Python 3.10+; no third-party packages are needed.
