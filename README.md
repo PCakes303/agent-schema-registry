@@ -31,6 +31,15 @@ Adding an optional property is generally compatible. Removing a property, changi
 ## Status
 Scaffolded, v0.1.0. Initial common metadata schema and structural CI are present. The standard-library checker does not claim full JSON Schema semantic validation; consumers should use a conformant Draft 2020-12 validator.
 
+## Entry-level build
+
+Start with the runnable starter build:
+
+    python tools/starter_build.py
+    python -m unittest discover -s tests -v
+
+See [Entry-level build guide](docs/ENTRY-LEVEL-BUILD.md) for Starter → Developer → Production progression.
+
 ## Ecosystem
 Master registry: https://github.com/PCakes303/agent-intelligence-ecosystem
 
