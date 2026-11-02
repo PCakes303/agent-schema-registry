@@ -1,12 +1,15 @@
 {
-  "schema_version": "1.0",
+  "compatibility_version": "1.1.0",
   "repository": "agent-schema-registry",
-  "requires": [
-    "agent-foundation-spec"
+  "policy": "Declared dependencies describe contract relationships only; they do not prove runtime interoperability. A dependency is marked tested only when reproducible cross-repository test evidence is published.",
+  "dependencies": [
+    {
+      "repository_id": "foundation",
+      "version_range": "*",
+      "status": "declared",
+      "evidence": []
+    }
   ],
-  "provides": [
-    "schemas.catalog"
-  ],
-  "schema_dialect": "https://json-schema.org/draft/2020-12/schema",
-  "policy": "Additive optional properties are generally compatible; removing or tightening accepted values is breaking."
+  "tested_combinations": [],
+  "breaking_change_policy": "Major contract version for removed or renamed required fields, semantic changes, or weakened security guarantees; minor for additive optional fields; patch for editorial corrections."
 }
